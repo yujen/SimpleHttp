@@ -4,7 +4,7 @@
 #include "SimpleHttpInstance.h"
 
 
-DEFINE_LOG_CATEGORY(SimpleHttp)
+DEFINE_LOG_CATEGORY(SimpleHttp);
 
 
 // Sets default values

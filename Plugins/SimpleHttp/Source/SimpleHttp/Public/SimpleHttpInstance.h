@@ -8,7 +8,7 @@
 #include "SimpleHttpInstance.generated.h"
 
 
-DECLARE_LOG_CATEGORY_EXTERN(SimpleHttp, Log, All)
+DECLARE_LOG_CATEGORY_EXTERN(SimpleHttp, Log, All);
 
 
 UENUM(BlueprintType)		//"BlueprintType" is essential to include
@@ -25,10 +25,10 @@ struct FHttpHeaderValue
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString Name;
+	FString Name;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString Value;
+	FString Value;
 };
 
 
